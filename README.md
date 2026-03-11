@@ -40,24 +40,23 @@ Developer verification will be enforced on certified devices with Google Play Se
 - Return to the main Settings screen to find Developer options at the bottom (or it may be in System)
 - Scroll through the options to find and enable USB debugging. On some devices, you can use the hourglass at the top of the Settings app to search for "USB debugging".
 
-#### Download ADB for PC (Windows) 
+#### Install ADB for PC (Ubuntu/Debian) 
 
-Download these files into a folder:
-
-- [AdbWinApi.dll](https://github.com/K3V1991/ADB-and-FastbootPlusPlus/blob/main/AdbWinApi.dll?raw=true)
-- [AdbWinUsbApi.dll](https://github.com/K3V1991/ADB-and-FastbootPlusPlus/blob/main/AdbWinUsbApi.dll?raw=true)
-- [adb.exe](https://github.com/K3V1991/ADB-and-FastbootPlusPlus/blob/main/adb.exe?raw=true)
-- [APK_Installer.bat](https://github.com/woheller69/FreeDroidWarn/blob/master/APK_Installer.bat?raw=true)
+How to use it:
+Save the code below as APK_install.sh.
+Open your terminal in the folder where your APKs are.
+chmod +x APK_install.sh to give it permission to run.
+Run it with ./install_apk.sh
 
 #### Download app APK
 
-You will also need the APK file to install to your phone, e.g. from [F-Droid](https://f-droid.org/). Save the APK to the same folder where you downloaded the above files.
+You will also need the APK file to install to your phone, e.g. from [F-Droid](https://f-droid.org/). Save the APKS in Downloads folder or anywhere you choose to save them.
 
 #### Connect phone to USB and install app
 
 - Connect your phone to the PC via a USB cable.
 - You should see a notification on your phone to change USB mode. Set it to file transfer mode.
-- Open the folder where you saved the above files and double click `APK_Installer.bat`.
+- Open the folder where you saved the above files and run `APK_Installer.sh`.
 - Select desired APK from list and install.
 - If prompted, check confirmation box on phone and agree to USB debugging from this PC.
 
