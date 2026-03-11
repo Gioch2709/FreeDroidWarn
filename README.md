@@ -42,11 +42,10 @@ Developer verification will be enforced on certified devices with Google Play Se
 
 #### Install ADB for PC (Ubuntu/Debian) 
 
-How to use it:
-Save the code below as APK_install.sh.
+Save the code as APK_install.sh.
 Open your terminal in the folder where your APKs are.
 chmod +x APK_install.sh to give it permission to run.
-Run it with ./install_apk.sh
+Run it with ./APK_install.sh
 
 #### Download app APK
 
@@ -56,7 +55,7 @@ You will also need the APK file to install to your phone, e.g. from [F-Droid](ht
 
 - Connect your phone to the PC via a USB cable.
 - You should see a notification on your phone to change USB mode. Set it to file transfer mode.
-- Open the folder where you saved the above files and run `APK_Installer.sh`.
+- Open the folder where you saved the APK files and run `APK_Installer.sh`.
 - Select desired APK from list and install.
 - If prompted, check confirmation box on phone and agree to USB debugging from this PC.
 
